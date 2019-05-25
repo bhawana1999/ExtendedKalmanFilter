@@ -54,8 +54,9 @@ Taking data from different sensors and combining them together is called Sensor 
 
 Prediction Step
 
-x′ = F.x + B.μ + ν
-P′ = FPFᵀ + Q
+        x′ = F.x + B.μ + ν
+        P′ = FPFᵀ + Q
+        
 The prediction step is exactly the same as that of Kalman Filter. It does not matters whether the data is coming from LIDAR or RADAR the prediction step is exactly the same.
 Update Step (Only in case of EKF i.e. Non Linear Measurements coming from RADAR)
 
